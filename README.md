@@ -45,3 +45,6 @@ Curated list of deployments of *fancy* cryptography.
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).
   Fully PQ: TBD.
 
+## See also
+
+* [IETF PQUIP working group's "state of protocols and PQC"](https://github.com/ietf-wg-pquip/state-of-protocols-and-pqc)
