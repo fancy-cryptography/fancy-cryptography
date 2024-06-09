@@ -21,7 +21,7 @@ Curated list of large-scale deployments of *fancy* cryptography.
 
 * **Chrome compromised passwords check.**
   Private Set Intersection.
-  REading: TBD.
+  Reading: TBD.
   Fully PQ: 😔.
   
 * (...)
