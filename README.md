@@ -35,10 +35,13 @@ Curated list of deployments of *fancy* cryptography.
 
 ## Web3 / Blockchain
 
-* TBD
+* **ZCash**
+  Reading: TBD.
+  Fully PQ: 😔.
   
 ## Growing or niche
 
-* TBD
-
+* **IACR voting**
+  Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).
+  Fully PQ: TBD.
 
