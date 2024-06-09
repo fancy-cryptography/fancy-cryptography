@@ -38,12 +38,16 @@ Curated list of deployments of *fancy* cryptography.
 * **ZCash**
   Reading: TBD.
   Fully PQ: 😔.
+
+* (...)
   
 ## Growing or niche
 
 * **IACR voting**
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).
   Fully PQ: TBD.
+
+* (...)
 
 ## See also
 
