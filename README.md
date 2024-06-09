@@ -4,16 +4,24 @@ Curated list of large-scale deployments of *fancy* cryptography.
 
 💫  [Contributions welcome](https://github.com/fancy-cryptography/fancy-cryptography/edit/main/README.md) 🌟
 
-* **Signal private group system**.
+* **Signal private group system.**
   Key-verification anonymous credentials.
-  Reading: [blog](https://signal.org/blog/signal-private-group-system/)
-  Fully PQ: 😔
-* **Apple private relay**
+  Reading: [blog](https://signal.org/blog/signal-private-group-system/).
+  Fully PQ: 😔.
+
+* **Apple private relay.**
   Blind sigantures for unlinkable tokens.
-  Fully PQ: 😔
-  Reading: TBD
-* **WhatsApp encrypted backups**
+  Reading: TBD.
+  Fully PQ: 😔.
+
+* **WhatsApp encrypted backups.**
   OPAQUE for backup key retrieval from PIN.
-  Fully PQ: 😔
-  Reading: TBD
+  Reading: TBD.
+  Fully PQ: 😔.
+
+* **Chrome compromised passwords check.**
+  Private Set Intersection.
+  REading: TBD.
+  Fully PQ: 😔.
+  
 * (...)
