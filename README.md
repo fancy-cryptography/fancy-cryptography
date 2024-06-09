@@ -11,7 +11,7 @@ Curated list of deployments of *fancy* cryptography.
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).
   Fully PQ: 😔.
 
-* **Apple private relay.**
+* **Apple rivate relay.**
   Blind sigantures for unlinkable tokens.
   Reading: TBD.
   Fully PQ: 😔.
@@ -25,6 +25,11 @@ Curated list of deployments of *fancy* cryptography.
   Private Set Intersection.
   Reading: TBD.
   Fully PQ: 😔.
+
+* **Cloudflare Geo Key Manager.**
+  Attribute/Identity-based encryption.
+  Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/)
+  Fully PQ: 😔.
   
 * (...)
 
@@ -32,7 +37,7 @@ Curated list of deployments of *fancy* cryptography.
 
 * TBD
   
-## Growing
+## Growing or niche
 
 * TBD
 
