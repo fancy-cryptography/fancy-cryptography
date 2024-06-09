@@ -1,8 +1,10 @@
 # Fancy cryptography in the wild 🍷🎩
 
-Curated list of large-scale deployments of *fancy* cryptography.
+Curated list of deployments of *fancy* cryptography.
 
 💫  [Contributions welcome](https://github.com/fancy-cryptography/fancy-cryptography/edit/main/README.md) 🌟
+
+## Large-scale mainstream deployments
 
 * **Signal private group system.**
   Key-verification anonymous credentials.
@@ -25,3 +27,13 @@ Curated list of large-scale deployments of *fancy* cryptography.
   Fully PQ: 😔.
   
 * (...)
+
+## Web3 / Blockchain
+
+* TBD
+  
+## Growing
+
+* TBD
+
+
