@@ -11,8 +11,8 @@ Curated list of deployments of *fancy* cryptography.
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).
   Fully PQ: 😔.
 
-* **Apple rivate relay.**
-  Blind sigantures for unlinkable tokens.
+* **Apple private relay.**
+  Blind signatures for unlinkable tokens.
   Reading: TBD.
   Fully PQ: 😔.
 
