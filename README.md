@@ -1,8 +1,8 @@
-# Fancy cryptography in the wild 🍷🎩
+# Fancy cryptography in the wild 🎩
 
 Curated list of deployments of *fancy* cryptography.
 
-💫  [Contributions welcome](https://github.com/fancy-cryptography/fancy-cryptography/edit/main/README.md) 🌟
+💫  [Contributions welcome](https://github.com/fancy-cryptography/fancy-cryptography/edit/main/README.md)
 
 ## Large-scale mainstream deployments
 
