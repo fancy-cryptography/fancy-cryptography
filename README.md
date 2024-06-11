@@ -11,9 +11,14 @@ Curated list of deployments of *fancy* cryptography.
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).
   Fully PQ: 😔.
 
-* **Apple private relay.**
-  Blind signatures for unlinkable tokens.
-  Reading: TBD.
+* **Apple Private Relay.**
+  Blind signatures for anonymous tokens.
+  Reading: [overview](https://www.apple.com/icloud/docs/iCloud_Private_Relay_Overview_Dec2021.pdf).
+  Fully PQ: 😔.
+
+* **Apple Private Cloud Compute.**
+  Blind signatures for anonymous tokens.
+  Reading: [blog](https://security.apple.com/blog/private-cloud-compute/).
   Fully PQ: 😔.
 
 * **WhatsApp encrypted backups.**
