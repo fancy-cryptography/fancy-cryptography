@@ -14,18 +14,18 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).
   Fully PQ: 😔.
 
-* **Apple Homekit device enrollment**
-  PAKE (SRP)
+* **Apple Homekit device enrollment**  
+  PAKE (SRP)  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3a881ccb1/web)
 	Fully PQ: 😔.
 
-* **Apple Keychain key escrow**
-  PAKE (SRP), threshold cryptography? ("majority of HSMs agrees")
+* **Apple Keychain key escrow**  
+  PAKE (SRP), threshold cryptography? ("majority of HSMs agrees")  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3e341e75d/web)
   Fully PQ: 😔.
 
-* **Apple Carkey**
-  PAKE (SPAKE2+)
+* **Apple Carkey**  
+  PAKE (SPAKE2+)  
   [documentation](https://support.apple.com/nl-nl/guide/security/secf64471c16/web)
   Fully PQ: 😔.
 
