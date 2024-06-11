@@ -23,12 +23,13 @@ Curated list of deployments of *fancy* cryptography.
 
 * **WhatsApp encrypted backups.**
   OPAQUE for backup key retrieval from PIN.
-  Reading: TBD.
+  Reading: [presentation](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/IT_2/slides.pdf),
+           [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).
   Fully PQ: 😔.
 
 * **Chrome compromised passwords check.**
   Private Set Intersection.
-  Reading: TBD.
+  Reading: [blog](https://security.googleblog.com/2019/12/better-password-protections-in-chrome.html).
   Fully PQ: 😔.
 
 * **Cloudflare Geo Key Manager.**
