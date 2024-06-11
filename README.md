@@ -37,7 +37,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Cloudflare Geo Key Manager.**  
   Attribute/Identity-based encryption.  
-  Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/)
+  Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).
   Fully PQ: 😔.
   
 * (...)
