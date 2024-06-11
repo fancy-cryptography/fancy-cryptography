@@ -62,9 +62,9 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://security.googleblog.com/2019/12/better-password-protections-in-chrome.html).
   Fully PQ: 😔.
 
-* **Android Nearby Share/Quick Share.**
-  PAKE and various weird stuff
-  Reading: tbd
+* **Android Nearby Share/Quick Share.**  
+  PAKE and various weird stuff  
+  Reading: tbd  
   Fully PQ: 😔.
 
 * **Cloudflare Geo Key Manager.**  
