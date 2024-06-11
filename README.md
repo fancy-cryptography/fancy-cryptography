@@ -2,6 +2,11 @@
 
 Curated list of deployments of *fancy* cryptography.
 
+Cryptography counts as fancy if it uses primitives beyond symmetric ciphers,
+(EC)DH as key agreement, digital signatures, public key encryption such as
+RSA-OAEP, or KEMs, or uses those
+primitives in unusual ways, especially if it relies on properties beyond IND-CCA2.
+
 A secondary goal of this list is to provide cryptographers with a list
 of schemes that still need to be upgraded to post-quantum cryptography.
 
@@ -39,6 +44,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://security.apple.com/blog/private-cloud-compute/).
   Fully PQ: 😔.
 
+* **Apple/Google Exposure Notifications.**  
+  Bespoke protocol.  
+  Reading: [overview](https://www.google.com/covid19/exposurenotifications/).  
+  Fully PQ: 😊 (with the exception of some signatures which could easily be changed to ML-DSA).
+
 * **WhatsApp encrypted backups.**  
   OPAQUE for backup key retrieval from PIN.  
   Reading: [presentation](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/IT_2/slides.pdf),
@@ -50,6 +60,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Chrome compromised passwords check.**  
   Private Set Intersection.  
   Reading: [blog](https://security.googleblog.com/2019/12/better-password-protections-in-chrome.html).
+  Fully PQ: 😔.
+
+* **Android Nearby Share/Quick Share.**
+  PAKE and various weird stuff
+  Reading: tbd
   Fully PQ: 😔.
 
 * **Cloudflare Geo Key Manager.**  
