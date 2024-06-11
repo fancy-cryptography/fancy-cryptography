@@ -61,9 +61,15 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 ## Web3 / Blockchain
 
-* **ZCash**  
-  Reading: TBD.
-  Fully PQ: 😔.
+* **Zcash shielded transactions.**  
+  zk-SNARKs, homomorphic Pedersen commitments, re-randomizable signing keys.  
+  Reading: [security analysis (with PQ notes)](https://github.com/daira/zcash-security),
+           [circuit statements](https://zips.z.cash/protocol/protocol.pdf#snarkstatements),
+           [Groth16 (trusted setup)](https://eprint.iacr.org/2016/260),
+           [Halo2 (trustless)](https://zcash.github.io/halo2/design/protocol.html),
+           [commitment specs](https://zips.z.cash/protocol/protocol.pdf#concretehomomorphiccommit),
+           [RedDSA](https://zips.z.cash/protocol/protocol.pdf#concretereddsa).  
+  Fully PQ: 😔. Has PQ privacy when the adversary doesn't know the recipient's address; no PQ correctness.
 
 * (...)
   
