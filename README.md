@@ -2,6 +2,9 @@
 
 Curated list of deployments of *fancy* cryptography.
 
+A secondary goal of this list is to provide cryptographers with a list
+of schemes that still need to be upgraded to post-quantum cryptography.
+
 💫  [Contributions welcome](https://github.com/fancy-cryptography/fancy-cryptography/edit/main/README.md)
 
 ## Large-scale mainstream deployments
