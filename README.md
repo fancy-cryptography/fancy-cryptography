@@ -44,10 +44,10 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://security.apple.com/blog/private-cloud-compute/).
   Fully PQ: 😔.
 
-* **Apple/Google Exposure Notifications.**
-  Bespoke protocol.
-  Reading: [overview](https://www.google.com/covid19/exposurenotifications/)
-  Fully PQ: 😊. (With the expections of some signatures which could easily be changed to ML-DSA)
+* **Apple/Google Exposure Notifications.**  
+  Bespoke protocol.  
+  Reading: [overview](https://www.google.com/covid19/exposurenotifications/).  
+  Fully PQ: 😊 (with the exception of some signatures which could easily be changed to ML-DSA).
 
 * **WhatsApp encrypted backups.**  
   OPAQUE for backup key retrieval from PIN.  
