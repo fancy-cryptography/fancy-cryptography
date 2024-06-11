@@ -27,6 +27,8 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **WhatsApp encrypted backups.**  
   OPAQUE for backup key retrieval from PIN.  
   Reading: [presentation](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/IT_2/slides.pdf),
+           [Meta whitepaper](https://scontent-lhr8-1.xx.fbcdn.net/v/t39.8562-6/241394876_546674233234181_8907137889500301879_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=W2f98GDJW1MQ7kNvgEi9dJ0&_nc_ht=scontent-lhr8-1.xx&oh=00_AYC2S2KAHkBXa60RvLU1sOfP5Y_rCNgj_LOzHpSZ7RwStw&oe=666E0A26)
+            [Academic paper](https://eprint.iacr.org/2023/843),
            [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).
   Fully PQ: 😔.
 
