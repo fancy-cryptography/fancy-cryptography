@@ -16,32 +16,32 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Signal private group system.**  
   Key-verification anonymous credentials.  
-  Reading: [blog](https://signal.org/blog/signal-private-group-system/).
+  Reading: [blog](https://signal.org/blog/signal-private-group-system/).  
   Fully PQ: 😔.
 
 * **Apple Homekit device enrollment**  
   aPAKE (SRP).  
-  Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3a881ccb1/web).
-	Fully PQ: 😔.
+  Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3a881ccb1/web).  
+  Fully PQ: 😔.
 
 * **Apple Keychain key escrow**  
   aPAKE (SRP), threshold cryptography? ("majority of HSMs agrees").  
-  Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3e341e75d/web).
+  Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3e341e75d/web).  
   Fully PQ: 😔.
 
 * **Apple Carkey**  
   aPAKE (SPAKE2+).  
-  Reading: [documentation](https://support.apple.com/nl-nl/guide/security/secf64471c16/web).
+  Reading: [documentation](https://support.apple.com/nl-nl/guide/security/secf64471c16/web).  
   Fully PQ: 😔.
 
 * **Apple Private Relay.**  
   Blind signatures for anonymous tokens.  
-  Reading: [overview](https://www.apple.com/icloud/docs/iCloud_Private_Relay_Overview_Dec2021.pdf).
+  Reading: [overview](https://www.apple.com/icloud/docs/iCloud_Private_Relay_Overview_Dec2021.pdf).  
   Fully PQ: 😔.
 
 * **Apple Private Cloud Compute.**  
   Blind signatures for anonymous tokens.  
-  Reading: [blog](https://security.apple.com/blog/private-cloud-compute/).
+  Reading: [blog](https://security.apple.com/blog/private-cloud-compute/).  
   Fully PQ: 😔.
 
 * **Apple/Google Exposure Notifications.**  
@@ -54,22 +54,22 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [presentation](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/IT_2/slides.pdf),
            [Meta whitepaper](https://scontent-lhr8-1.xx.fbcdn.net/v/t39.8562-6/241394876_546674233234181_8907137889500301879_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=W2f98GDJW1MQ7kNvgEi9dJ0&_nc_ht=scontent-lhr8-1.xx&oh=00_AYC2S2KAHkBXa60RvLU1sOfP5Y_rCNgj_LOzHpSZ7RwStw&oe=666E0A26),
             [Academic paper](https://eprint.iacr.org/2023/843),
-           [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).
+           [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).  
   Fully PQ: 😔.
 
 * **Chrome compromised passwords check.**  
   Private Set Intersection.  
-  Reading: [blog](https://security.googleblog.com/2019/12/better-password-protections-in-chrome.html).
+  Reading: [blog](https://security.googleblog.com/2019/12/better-password-protections-in-chrome.html).  
   Fully PQ: 😔.
 
 * **Android Nearby Share/Quick Share.**  
   PAKE and various weird stuff  
-  Reading: TBD  
+  Reading: TBD.  
   Fully PQ: 😔.
 
 * **Cloudflare Geo Key Manager.**  
   Attribute/Identity-based encryption.  
-  Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).
+  Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).  
   Fully PQ: 😔.
 
 * **1Password user authentication.**
@@ -79,7 +79,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Passport chip access control**  
   PAKE (PACE)  
-  Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf).
+  Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf).  
   Fully PQ: 😔.
   
 * (...)
@@ -101,7 +101,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 ## Growing or niche
 
 * **IACR voting**  
-  Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).
+  Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).  
   Fully PQ: TBD.
 
 * (...)
