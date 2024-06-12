@@ -20,17 +20,17 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
 
 * **Apple Homekit device enrollment**  
-  PAKE (SRP).  
+  aPAKE (SRP).  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3a881ccb1/web).
 	Fully PQ: 😔.
 
 * **Apple Keychain key escrow**  
-  PAKE (SRP), threshold cryptography? ("majority of HSMs agrees").  
+  aPAKE (SRP), threshold cryptography? ("majority of HSMs agrees").  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3e341e75d/web).
   Fully PQ: 😔.
 
 * **Apple Carkey**  
-  PAKE (SPAKE2+).  
+  aPAKE (SPAKE2+).  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/secf64471c16/web).
   Fully PQ: 😔.
 
@@ -50,7 +50,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😊 (with the exception of some signatures which could easily be changed to ML-DSA).
 
 * **WhatsApp encrypted backups.**  
-  OPAQUE for backup key retrieval from PIN.  
+  aPAKE (OPAQUE) for backup key retrieval from PIN.  
   Reading: [presentation](https://iacr.org/submit/files/slides/2023/rwc/rwc2023/IT_2/slides.pdf),
            [Meta whitepaper](https://scontent-lhr8-1.xx.fbcdn.net/v/t39.8562-6/241394876_546674233234181_8907137889500301879_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=e280be&_nc_ohc=W2f98GDJW1MQ7kNvgEi9dJ0&_nc_ht=scontent-lhr8-1.xx&oh=00_AYC2S2KAHkBXa60RvLU1sOfP5Y_rCNgj_LOzHpSZ7RwStw&oe=666E0A26),
             [Academic paper](https://eprint.iacr.org/2023/843),
@@ -70,6 +70,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Cloudflare Geo Key Manager.**  
   Attribute/Identity-based encryption.  
   Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).
+  Fully PQ: 😔.
+
+* **1Password user authentication.**
+  aPAKE
+  Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).
   Fully PQ: 😔.
 
 * **Passport chip access control**  
