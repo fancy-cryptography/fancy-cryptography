@@ -64,7 +64,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Android Nearby Share/Quick Share.**  
   PAKE and various weird stuff  
-  Reading: tbd  
+  Reading: TBD  
   Fully PQ: 😔.
 
 * **Cloudflare Geo Key Manager.**  
@@ -75,6 +75,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **1Password user authentication.**
   aPAKE
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).
+  Fully PQ: 😔.
+
+* **Passport chip access control**  
+  PAKE (PACE)  
+  Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf).
   Fully PQ: 😔.
   
 * (...)
