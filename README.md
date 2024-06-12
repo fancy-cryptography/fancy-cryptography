@@ -64,6 +64,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).  
   Fully PQ: 😔.
 
+* **Mozilla Oblivious HTTP.**  
+  Prio privacy-preserving statistics  
+  Reading: [blog](https://blog.mozilla.org/en/products/firefox/partnership-ohttp-prio/), [prio paper](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/corrigan-gibbs).  
+  Fully PQ: 😔.
+
 * **Passport chip access control**  
   PAKE (PACE)  
   Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf).  
@@ -100,15 +105,25 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   
 ## Proofs of Concept / Growing / Niche
 
+* **Facebook secure update propagation.**  
+  Homomorphic hasing (aka incremental hashing)  
+  Reading:  [blog](https://engineering.fb.com/2019/03/01/security/homomorphic-hashing/), [code](https://github.com/facebook/folly/blob/main/folly/crypto/LtHash.cpp).  
+  Fully PQ:  🤨 potentially with a PQ-signature scheme signing homomorphic hashes
+
+* **Facebook ads attribution.**  
+  Private match and compute
+  Reading: [blog](https://engineering.fb.com/2020/07/10/open-source/private-matching/), [code](https://github.com/facebookresearch/Private-ID).  
+  Fully PQ: 😔.
+
+* **Google ads attribution.**  
+  Private join and compute
+  Reading: [blog](https://security.googleblog.com/2019/06/helping-organizations-do-more-without-collecting-more-data.html), [code](https://github.com/google/private-join-and-compute).  
+  Fully PQ: 😔.
+
 * **Google ads attribution.**
   Partially homomorphic encryption for private set intersection using Paillier  
   Reading:  [blog](https://bristolcrypto.blogspot.com/2017/01/rwc-2017-secure-mpc-at-google.html), [Media coverage](https://www.theverge.com/2018/8/30/17801880/google-mastercard-data-online-ads-offline-purchase-history-privacy), [patent](https://research.google/pubs/private-intersection-sum-protocols-with-applications-to-attributing-aggregate-ad-conversions/).  
   Fully PQ:  😔. Paillier is not post-quantum secure.
-
-* **Facebook secure update propagation.**
-  Homomorphic hasing (aka incremental hashing)  
-  Reading:  [blog](https://engineering.fb.com/2019/03/01/security/homomorphic-hashing/), [code](https://github.com/facebook/folly/blob/main/folly/crypto/LtHash.cpp).  
-  Fully PQ:  🤨 potentially with a PQ-signature scheme signing homomorphic hashes
  
 * **IACR voting**
   Mixnets  
