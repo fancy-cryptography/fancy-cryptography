@@ -72,9 +72,10 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).
   Fully PQ: 😔.
 
-* **Passport chip access control**
-  PAKE (PACE)
+* **Passport chip access control**  
+  PAKE (PACE)  
   Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf)
+  Fully PQ: 😔.
   
 * (...)
 
