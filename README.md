@@ -64,10 +64,13 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).  
   Fully PQ: 😔.
 
-* **Mozilla Oblivious HTTP.**  
-  Prio privacy-preserving statistics  
-  Reading: [blog](https://blog.mozilla.org/en/products/firefox/partnership-ohttp-prio/), [prio paper](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/corrigan-gibbs).  
-  Fully PQ: 😔.
+* **Mozilla Firefox telemetry.**  
+  Oblivious HTTP, Prio privacy-preserving statistics.  
+  Reading: [blog](https://blog.mozilla.org/en/products/firefox/partnership-ohttp-prio/),
+           [prio paper](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/corrigan-gibbs),
+           [OHTTP spec](https://datatracker.ietf.org/doc/html/rfc9458),
+           [Distributed Aggregation Protocol spec](https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/).  
+  Fully PQ: 😔 (if PQ configurations of TLS and HPKE are used).
 
 * **Passport chip access control**  
   PAKE (PACE)  
