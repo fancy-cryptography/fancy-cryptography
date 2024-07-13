@@ -60,7 +60,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
 
 * **1Password user authentication.**
-  aPAKE (SRP)
+  aPAKE (SRP)  
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).  
   Fully PQ: 😔.
 
