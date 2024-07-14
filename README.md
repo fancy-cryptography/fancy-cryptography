@@ -60,7 +60,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
 
 * **1Password user authentication.**
-  aPAKE  
+  aPAKE (SRP)  
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).  
   Fully PQ: 😔.
 
@@ -75,6 +75,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Passport chip access control**  
   PAKE (PACE)  
   Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf).  
+  Fully PQ: 😔.
+
+* **Facebook Messenger chat history sharing**  
+  PAKE (CPace)  
+  Reading: [Labyrinth](https://engineering.fb.com/wp-content/uploads/2023/12/TheLabyrinthEncryptedMessageStorageProtocol_12-6-2023.pdf) (p35)  
   Fully PQ: 😔.
 
 * **Signal private group system.**  
