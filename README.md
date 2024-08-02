@@ -114,7 +114,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 ## Proofs of Concept / Growing / Niche
 
 * **Facebook secure update propagation.**  
-  Homomorphic hasing (aka incremental hashing)  
+  Homomorphic hashing (aka incremental hashing)  
   Reading:  [blog](https://engineering.fb.com/2019/03/01/security/homomorphic-hashing/), [code](https://github.com/facebook/folly/blob/main/folly/crypto/LtHash.cpp).  
   Fully PQ:  🤨 potentially with a PQ-signature scheme signing homomorphic hashes
 
