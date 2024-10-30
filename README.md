@@ -20,7 +20,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
 
 * **Apple Homekit device enrollment**  
-  aPAKE (SRP).  
+  aPAKE (SRP / SPAKE2+ (Matter))  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3a881ccb1/web).  
   Fully PQ: 😔.
 
@@ -76,6 +76,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [OHTTP spec](https://datatracker.ietf.org/doc/html/rfc9458),
            [Distributed Aggregation Protocol spec](https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/).  
   Fully PQ: 😔 (if PQ configurations of TLS and HPKE are used).
+
+* **Matter device enrollment**  
+  aPAKE (SPAKE2+)  
+  Reading: [documentation](https://docs.silabs.com/matter/2.2.0/matter-fundamentals-security/)
+  Fully PQ: 😔
 
 * **Passport chip access control**  
   PAKE (PACE)  
