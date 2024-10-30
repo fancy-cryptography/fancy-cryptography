@@ -79,7 +79,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Matter device enrollment**  
   aPAKE (SPAKE2+)  
-  Reading: [documentation](https://docs.silabs.com/matter/2.2.0/matter-fundamentals-security/)
+  Reading: [documentation](https://docs.silabs.com/matter/2.2.0/matter-fundamentals-security/)  
   Fully PQ: 😔
 
 * **Passport chip access control**  
