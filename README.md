@@ -108,7 +108,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Signal encrypted backups.**
   Password-protected Secret Sharing (PPSS) based on OPRF for key retreival from PIN.
   Reading: [Academic paper](https://eprint.iacr.org/2024/887.pdf),
-           [Code](https://github.com/signalapp/SecureValueRecovery2)
+           [Code](https://github.com/signalapp/SecureValueRecovery2)  
   Fully PQ: 😔.  
 
 * (...)
