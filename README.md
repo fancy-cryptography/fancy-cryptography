@@ -46,7 +46,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Apple/Google Exposure Notifications.**  
   Bespoke protocol.  
-  Reading: [overview](https://www.google.com/covid19/exposurenotifications/).  
+  Reading: [overview (archive.org)](https://web.archive.org/web/20240709100147/https://www.google.com/covid19/exposurenotifications/).  
   Fully PQ: 😊 (with the exception of some signatures which could easily be changed to ML-DSA).
 
 * **Apple Live Caller ID lookup.**  
