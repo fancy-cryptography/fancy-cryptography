@@ -64,7 +64,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).  
   Fully PQ: 😔.
 
-* **1Password user authentication.**
+* **1Password user authentication.**  
   aPAKE (SRP)  
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).  
   Fully PQ: 😔.
