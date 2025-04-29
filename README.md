@@ -144,7 +144,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://security.googleblog.com/2019/06/helping-organizations-do-more-without-collecting-more-data.html), [code](https://github.com/google/private-join-and-compute).  
   Fully PQ: 😔.
 
-* **Google ads attribution.**
+* **Google ads attribution.**  
   Partially homomorphic encryption for private set intersection using Paillier  
   Reading:  [blog](https://bristolcrypto.blogspot.com/2017/01/rwc-2017-secure-mpc-at-google.html), [Media coverage](https://www.theverge.com/2018/8/30/17801880/google-mastercard-data-online-ads-offline-purchase-history-privacy), [patent](https://research.google/pubs/private-intersection-sum-protocols-with-applications-to-attributing-aggregate-ad-conversions/).  
   Fully PQ:  😔. Paillier is not post-quantum secure.
