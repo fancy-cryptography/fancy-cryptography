@@ -105,8 +105,8 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).  
   Fully PQ: 😔.
 
-* **Signal encrypted backups.**
-  Password-protected Secret Sharing (PPSS) based on OPRF for key retreival from PIN.
+* **Signal encrypted backups.**  
+  Password-protected Secret Sharing (PPSS) based on OPRF for key retreival from PIN.  
   Reading: [Academic paper](https://eprint.iacr.org/2024/887.pdf),
            [Code](https://github.com/signalapp/SecureValueRecovery2)  
   Fully PQ: 😔.  
