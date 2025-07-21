@@ -156,6 +156,12 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Mixnets  
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).  
   Fully PQ:  TBD.
+* **Tahoe-LAFS ZKAPs (Zero Knowledge Access Passes)**
+  similar to Privacy Pass, but for disk usage
+  Reading: [whitepaper](https://leastauthority.com/product-development/zkaps/)
+* **Privacy Pass**
+  captcha alternative
+  Reading: [whitepaper](https://www.petsymposium.org/2018/files/papers/issue3/popets-2018-0026.pdf)
 
 * (...)
 
