@@ -139,7 +139,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Facebook ads attribution.**  
   Private match and compute
-  Reading: [blog](https://engineering.fb.com/2020/07/10/open-source/private-matching/), [code](https://github.com/facebookresearch/Private-ID).  
+  Reading: [blog 1](https://engineering.fb.com/2020/07/10/open-source/private-matching/), [blog 2](https://research.facebook.com/blog/2023/1/delegated-multi-key-private-matching-for-compute-improving-match-rates-and-enabling-adoption/), [code](https://github.com/facebookresearch/Private-ID).  
   Fully PQ: 😔.
 
 * **Google ads attribution.**  
