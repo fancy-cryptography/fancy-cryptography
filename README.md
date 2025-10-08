@@ -113,7 +113,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **league of entropy (drand).**  
   Public verifiable decentralised randomness using threshold signatures and distributed key generation.  
-  Reading: [website](https://www.drand.love/loe), [docs](https://docs.drand.love/about/)
+  Reading: [website](https://www.drand.love/loe), [docs](https://docs.drand.love/about/)  
   Fully PQ: 😔.
 
 * (...)
