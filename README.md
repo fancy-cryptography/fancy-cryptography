@@ -128,6 +128,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   * Post-Quantum Zcash presentation: [slides](https://docs.google.com/presentation/d/1BHBiSOEO5zt40KWBbRXVMGIIuAcT2hfPWZQ3pT_8tm8/edit), [video](https://www.youtube.com/watch?v=T2B5f297d-Y)<br>
   * [Proposal for "quantum resilience" (draft)](https://hackmd.io/fF6D7THmRDamvyAAsJN5yw?view): "This ZIP proposes a change to the construction of Orchard notes that is intended to support a smoother transition to future versions of Zcash designed to be secure against discrete-log-breaking adversaries, including adversaries using quantum computers."
 
+* **Nillion's decentralized database (nilDB)**  
+  Decentralized storage, Shamir secret sharing, XOR secret sharing, additive secret sharing, Paillier.
+  Reading: [blog](https://docs.nillion.com/learn/blind-modules#nildb), [docs](https://docs.nillion.com/build/private-storage/overview), [code](https://github.com/NillionNetwork/nildb)  
+  Fully PQ: 🤨 (with the exception of Paillier)  
+
 * (...)
   
 ## Proofs of Concept / Growing / Niche
