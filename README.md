@@ -111,7 +111,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [Code](https://github.com/signalapp/SecureValueRecovery2)  
   Fully PQ: 😔.
 
-* **league of entropy (drand).**
+* **league of entropy (drand).**  
   Public verifiable decentralised randomness using threshold signatures and distributed key generation.  
   Reading: [website](https://www.drand.love/loe), [docs](https://docs.drand.love/about/)
   Fully PQ: 😔.
