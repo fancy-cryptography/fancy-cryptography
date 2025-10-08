@@ -109,7 +109,12 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Password-protected Secret Sharing (PPSS) based on OPRF for key retreival from PIN.  
   Reading: [Academic paper](https://eprint.iacr.org/2024/887.pdf),
            [Code](https://github.com/signalapp/SecureValueRecovery2)  
-  Fully PQ: 😔.  
+  Fully PQ: 😔.
+
+* **league of entropy (drand).**
+  Public verifiable decentralised randomness using threshold signatures and distributed key generation.  
+  Reading: [website](https://www.drand.love/loe), [docs](https://docs.drand.love/about/)
+  Fully PQ: 😔.
 
 * (...)
 
