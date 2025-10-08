@@ -136,7 +136,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Nillion's decentralized database (nilDB)**  
   Decentralized storage, Shamir secret sharing, XOR secret sharing, additive secret sharing, Paillier.
   Reading: [blog](https://docs.nillion.com/learn/blind-modules#nildb), [docs](https://docs.nillion.com/build/private-storage/overview), [code](https://github.com/NillionNetwork/nildb)  
-  Fully PQ: 🤨 (with the exception of Paillier)  
+  Fully PQ: 😊 with the exception of Paillier mode.  
 
 * (...)
   
