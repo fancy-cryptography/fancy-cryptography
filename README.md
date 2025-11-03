@@ -116,6 +116,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [website](https://www.drand.love/loe), [docs](https://docs.drand.love/about/)  
   Fully PQ: 😔.
 
+* **Proton user authentication**  
+  aPAKE (SRP)  
+  Reading: [blog](https://proton.me/blog/encrypted-email-authentication).  
+  Fully PQ: 😔.
+
 * (...)
 
 ## Web3 / Blockchain
@@ -166,6 +171,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Mixnets  
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).  
   Fully PQ:  TBD.
+
+* **Proton E2EE email forwarding**  
+  Proxy re-encryption for ECDH (X25519) in OpenPGP  
+  Reading: [blog](https://proton.me/blog/email-forwarding), [paper](https://arxiv.org/abs/2211.06992), [spec rfc draft](https://datatracker.ietf.org/doc/draft-wussler-openpgp-forwarding/).  
+  Fully PQ: 😔.
 
 * (...)
 
