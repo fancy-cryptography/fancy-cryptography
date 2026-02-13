@@ -143,9 +143,19 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://docs.nillion.com/learn/blind-modules#nildb), [docs](https://docs.nillion.com/build/private-storage/overview), [code](https://github.com/NillionNetwork/nildb)  
   Fully PQ: 😊 with the exception of Paillier mode.  
 
+* **Taproot (BIP 342)**  
+  Public key in Bitcoin that can be openned as if it was a commitment. Commitment is PQ, but public key is not.  
+  Readling: [academic paper](https://eprint.iacr.org/2025/1307)  
+  Fully PQ: 😔. Commitment is PQ, but public key is not.  
+
 * (...)
   
 ## Proofs of Concept / Growing / Niche
+
+* **Bitcoin PIPEs v2**  
+  Witness encryption to enable Covenants and ZKPs from signatures  
+  Reading: [Paper](https://eprint.iacr.org/2026/186)  
+  Fully PQ: TBD.  
 
 * **Facebook secure update propagation.**  
   Homomorphic hashing (aka incremental hashing)  
