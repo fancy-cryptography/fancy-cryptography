@@ -112,7 +112,9 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Signal Secure Value Recovery.**
   OPRF-based rate-limited key derivation for recovering account settings from a user-chosen PIN or password.
-  Reading: [Academic paper](TODO), Implementation has HNDL security [source code](https://github.com/signalapp/libsignal/blob/main/rust/svrb/src/lib.rs).
+  Reading: [Academic paper](TODO),
+           [Client code](https://github.com/signalapp/libsignal/blob/main/rust/svrb/src/lib.rs) (HNDL secure),
+           [Server code](https://github.com/signalapp/SecureValueRecovery2) (HNDL secure).
   Fully PQ: 😔.
 
 * **league of entropy (drand).**  
