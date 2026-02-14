@@ -151,7 +151,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Taproot (BIP 342)**  
   Public key in Bitcoin that can be openned as if it was a commitment. Commitment is PQ, but public key is not.  
-  Readling: [academic paper](https://eprint.iacr.org/2025/1307)  
+  Reading: [academic paper](https://eprint.iacr.org/2025/1307)  
   Fully PQ: 😔. Commitment is PQ, but public key is not.  
 
 * (...)
