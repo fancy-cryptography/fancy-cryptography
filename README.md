@@ -77,7 +77,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [Distributed Aggregation Protocol spec](https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/).  
   Fully PQ: 😔 (if PQ configurations of TLS and HPKE are used).
 
-* **Matter device enrollment**  
+* **Matter device enrollment**
   aPAKE (SPAKE2+)  
   Reading: [documentation](https://docs.silabs.com/matter/2.2.0/matter-fundamentals-security/)  
   Fully PQ: 😔
