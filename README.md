@@ -96,6 +96,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Key-verification anonymous credentials.  
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).  
   Fully PQ: 😔.
+  
+* **Signal group send endorsements.**
+  Anonymous endorsement tokens based similar to Privacy Pass with blind batch issuance and homomorphic combination.
+  Reading: [source code](https://github.com/signalapp/libsignal/tree/main/rust/zkcredential/src/endorsements.rs).
+  Fully PQ: 😔.
 
 * **WhatsApp encrypted backups.**  
   aPAKE (OPAQUE) for backup key retrieval from PIN.  
@@ -105,10 +110,11 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).  
   Fully PQ: 😔.
 
-* **Signal encrypted backups.**  
-  Password-protected Secret Sharing (PPSS) based on OPRF for key retrieval from PIN.  
-  Reading: [Academic paper](https://eprint.iacr.org/2024/887.pdf),
-           [Code](https://github.com/signalapp/SecureValueRecovery2)  
+* **Signal Secure Value Recovery.**
+  OPRF-based rate-limited key derivation for recovering account settings from a user-chosen PIN or password.
+  Reading: [Academic paper](TODO),
+           [Client code](https://github.com/signalapp/libsignal/blob/main/rust/svrb/src/lib.rs) (HNDL secure),
+           [Server code](https://github.com/signalapp/SecureValueRecovery2) (HNDL secure).
   Fully PQ: 😔.
 
 * **league of entropy (drand).**  
