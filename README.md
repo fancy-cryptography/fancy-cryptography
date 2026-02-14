@@ -98,8 +98,8 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
   
 * **Signal group send endorsements.**
-  Anonymous endorsement tokens based similar to Privacy Pass with blind batch issuance and homomorphic combination.
-  Reading: [source code](https://github.com/signalapp/libsignal/tree/main/rust/zkcredential/src/endorsements.rs).
+  Anonymous endorsement tokens based similar to Privacy Pass with blind batch issuance and homomorphic combination.  
+  Reading: [source code](https://github.com/signalapp/libsignal/tree/main/rust/zkcredential/src/endorsements.rs).  
   Fully PQ: 😔.
 
 * **WhatsApp encrypted backups.**  
@@ -111,10 +111,10 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
 
 * **Signal Secure Value Recovery.**
-  OPRF-based rate-limited key derivation for recovering account settings from a user-chosen PIN or password.
+  OPRF-based rate-limited key derivation for recovering account settings from a user-chosen PIN or password.  
   Reading: [Academic paper](TODO),
            [Client code](https://github.com/signalapp/libsignal/blob/main/rust/svrb/src/lib.rs) (HNDL secure),
-           [Server code](https://github.com/signalapp/SecureValueRecovery2) (HNDL secure).
+           [Server code](https://github.com/signalapp/SecureValueRecovery2) (HNDL secure).  
   Fully PQ: 😔.
 
 * **league of entropy (drand).**  
