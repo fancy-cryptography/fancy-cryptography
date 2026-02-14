@@ -84,7 +84,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **Passport chip access control**  
   PAKE (PACE)  
-  Reading: [overview](https://www.icao.int/Security/FAL/PKD/BVRT/Pages/Document-readers.aspx), [spec](https://www.icao.int/publications/documents/9303_p10_cons_en.pdf).  
+  Reading: [overview](https://www.icao.int/icao-pkd/epassport-basics), [spec](https://www.icao.int/icao-pkd/epassport-validation).  
   Fully PQ: 😔.
 
 * **Facebook Messenger chat history sharing**  
@@ -119,7 +119,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 
 * **league of entropy (drand).**  
   Public verifiable decentralised randomness using threshold signatures and distributed key generation.  
-  Reading: [website](https://www.drand.love/loe), [docs](https://docs.drand.love/about/)  
+  Reading: [website](https://docs.drand.love/about/community/), [docs](https://docs.drand.love/about/)  
   Fully PQ: 😔.
 
 * **Proton user authentication**  
