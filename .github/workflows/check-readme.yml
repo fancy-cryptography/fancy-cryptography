@@ -1,0 +1,13 @@
+name: Check README formatting
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/check_readme.py
