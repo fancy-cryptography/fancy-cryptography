@@ -97,7 +97,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).  
   Fully PQ: 😔.
   
-* **Signal group send endorsements.**
+* **Signal group send endorsements.**  
   Anonymous endorsement tokens based similar to Privacy Pass with blind batch issuance and homomorphic combination.  
   Reading: [source code](https://github.com/signalapp/libsignal/tree/main/rust/zkcredential/src/endorsements.rs).  
   Fully PQ: 😔.
@@ -110,7 +110,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).  
   Fully PQ: 😔.
 
-* **Signal Secure Value Recovery.**
+* **Signal Secure Value Recovery.**  
   OPRF-based rate-limited key derivation for recovering account settings from a user-chosen PIN or password.  
   Reading: [Academic paper](TODO),
            [Client code](https://github.com/signalapp/libsignal/blob/main/rust/svrb/src/lib.rs) (HNDL secure),
@@ -140,12 +140,12 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [commitment specs](https://zips.z.cash/protocol/protocol.pdf#concretehomomorphiccommit),
            [RedDSA](https://zips.z.cash/protocol/protocol.pdf#concretereddsa).<br>
   Fully PQ: 😔. Has PQ privacy when the adversary doesn't know the recipient's address; no PQ correctness.<br>
-  Future proposals:
+  Future proposals:  
   * Post-Quantum Zcash presentation: [slides](https://docs.google.com/presentation/d/1BHBiSOEO5zt40KWBbRXVMGIIuAcT2hfPWZQ3pT_8tm8/edit), [video](https://www.youtube.com/watch?v=T2B5f297d-Y)<br>
   * [Proposal for "quantum resilience" (draft)](https://hackmd.io/fF6D7THmRDamvyAAsJN5yw?view): "This ZIP proposes a change to the construction of Orchard notes that is intended to support a smoother transition to future versions of Zcash designed to be secure against discrete-log-breaking adversaries, including adversaries using quantum computers."
 
 * **Nillion's decentralized database (nilDB)**  
-  Decentralized storage, Shamir secret sharing, XOR secret sharing, additive secret sharing, Paillier.
+  Decentralized storage, Shamir secret sharing, XOR secret sharing, additive secret sharing, Paillier.  
   Reading: [blog](https://docs.nillion.com/learn/blind-modules#nildb), [docs](https://docs.nillion.com/build/private-storage/overview), [code](https://github.com/NillionNetwork/nildb)  
   Fully PQ: 😊 with the exception of Paillier mode.  
 
@@ -174,7 +174,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Fully PQ: 😔.
 
 * **Google ads attribution.**  
-  Private join and compute
+  Private join and compute  
   Reading: [blog](https://security.googleblog.com/2019/06/helping-organizations-do-more-without-collecting-more-data.html), [code](https://github.com/google/private-join-and-compute).  
   Fully PQ: 😔.
 
@@ -183,7 +183,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
   Reading:  [blog](https://bristolcrypto.blogspot.com/2017/01/rwc-2017-secure-mpc-at-google.html), [Media coverage](https://www.theverge.com/2018/8/30/17801880/google-mastercard-data-online-ads-offline-purchase-history-privacy), [patent](https://research.google/pubs/private-intersection-sum-protocols-with-applications-to-attributing-aggregate-ad-conversions/).  
   Fully PQ:  😔. Paillier is not post-quantum secure.
  
-* **IACR voting**
+* **IACR voting**  
   Mixnets  
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).  
   Fully PQ:  TBD.
