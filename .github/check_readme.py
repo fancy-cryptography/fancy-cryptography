@@ -10,7 +10,7 @@ Checks:
    a line break in rendered markdown. Lines ending with a comma (continuation
    lines for multi-link Reading entries) are exempt.
 2. Required fields: every list entry must contain a 'Reading:' line and a
-   'Fully PQ:' line.
+   PQ status line ('Fully PQ', 'NOT fully PQ', 'Partially PQ', or 'PQ? TBD').
 """
 
 import sys
@@ -72,12 +72,17 @@ def check_block(lines, start, end):
 
 
 def check_required_fields(lines, start, end):
-    """Check that a block contains 'Reading:' and 'Fully PQ:' lines.
+    """Check that a block contains 'Reading:' and a PQ status line.
+
+    The PQ status line must contain one of: 'Fully PQ', 'NOT fully PQ',
+    'Partially PQ', or 'PQ? TBD'.
 
     Returns a list of (line_number, entry_name, missing_field) for any missing
     required fields.
     """
     import re
+
+    PQ_MARKERS = ["Fully PQ", "NOT fully PQ", "Partially PQ", "PQ? TBD"]
 
     # Extract entry name from the first line: * **Name**
     first_line = lines[start].strip()
@@ -88,12 +93,20 @@ def check_required_fields(lines, start, end):
 
     errors = []
     has_reading = any("Reading:" in line for line in block_text)
-    has_fully_pq = any("Fully PQ:" in line for line in block_text)
+    has_pq_status = any(
+        any(marker in line for marker in PQ_MARKERS) for line in block_text
+    )
 
     if not has_reading:
         errors.append((start + 1, name, "Reading:"))
-    if not has_fully_pq:
-        errors.append((start + 1, name, "Fully PQ:"))
+    if not has_pq_status:
+        errors.append(
+            (
+                start + 1,
+                name,
+                "PQ status (Fully PQ / NOT fully PQ / Partially PQ / PQ? TBD)",
+            )
+        )
 
     return errors
 
@@ -132,7 +145,7 @@ def main():
         print(f"ERROR: {len(field_errors)} missing required field(s):\n")
         for lineno, name, field in field_errors:
             print(f"  Line {lineno} ({name}): missing '{field}'")
-        print(f"\nEvery entry must contain a 'Reading:' line and a 'Fully PQ:' line.\n")
+        print(f"\nEvery entry must contain a 'Reading:' line and a PQ status line.\n")
 
     if ok:
         print("README formatting check passed.")

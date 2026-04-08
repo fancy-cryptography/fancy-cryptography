@@ -17,57 +17,57 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Android Nearby Share/Quick Share.**  
   PAKE and various weird stuff  
   Reading: TBD.  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Apple Homekit device enrollment**  
   aPAKE (SRP / SPAKE2+ (Matter))  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3a881ccb1/web).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Apple Keychain key escrow**  
   aPAKE (SRP), threshold cryptography? ("majority of HSMs agrees").  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/sec3e341e75d/web).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Apple Carkey**  
   aPAKE (SPAKE2+).  
   Reading: [documentation](https://support.apple.com/nl-nl/guide/security/secf64471c16/web).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Apple Private Relay.**  
   Blind signatures for anonymous tokens.  
   Reading: [overview](https://www.apple.com/icloud/docs/iCloud_Private_Relay_Overview_Dec2021.pdf).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Apple Private Cloud Compute.**  
   Blind signatures for anonymous tokens.  
   Reading: [blog](https://security.apple.com/blog/private-cloud-compute/).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Apple/Google Exposure Notifications.**  
   Bespoke protocol.  
   Reading: [overview (archive.org)](https://web.archive.org/web/20240709100147/https://www.google.com/covid19/exposurenotifications/).  
-  Fully PQ: 😊 (with the exception of some signatures which could easily be changed to ML-DSA).
+  Fully PQ 😊 (with the exception of some signatures which could easily be changed to ML-DSA).
 
 * **Apple Live Caller ID lookup.**  
   PIR using FHE.  
   Reading: [blog](https://www.swift.org/blog/announcing-swift-homomorphic-encryption/)  
-  Fully PQ: 😊 (with the exception of anonymous tokens used for rate-limiting)
+  Fully PQ 😊 (with the exception of anonymous tokens used for rate-limiting)
 
 * **Chrome compromised passwords check.**  
   Private Set Intersection.  
   Reading: [blog](https://security.googleblog.com/2019/12/better-password-protections-in-chrome.html).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Cloudflare Geo Key Manager.**  
   Attribute/Identity-based encryption.  
   Reading: [blog](https://blog.cloudflare.com/inside-geo-key-manager-v2/).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **1Password user authentication.**  
   aPAKE (SRP)  
   Reading: [blog](https://blog.1password.com/developers-how-we-use-srp-and-you-can-too/).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Mozilla Firefox telemetry.**  
   Oblivious HTTP, Prio privacy-preserving statistics.  
@@ -75,32 +75,32 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [prio paper](https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/corrigan-gibbs),
            [OHTTP spec](https://datatracker.ietf.org/doc/html/rfc9458),
            [Distributed Aggregation Protocol spec](https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/).  
-  Fully PQ: 😔 (if PQ configurations of TLS and HPKE are used).
+  NOT fully PQ 😔 (if PQ configurations of TLS and HPKE are used).
 
 * **Matter device enrollment**  
   aPAKE (SPAKE2+)  
   Reading: [documentation](https://docs.silabs.com/matter/2.2.0/matter-fundamentals-security/)  
-  Fully PQ: 😔
+  NOT fully PQ 😔.
 
 * **Passport chip access control**  
   PAKE (PACE)  
   Reading: [overview](https://www.icao.int/icao-pkd/epassport-basics), [spec](https://www.icao.int/icao-pkd/epassport-validation).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Facebook Messenger chat history sharing**  
   PAKE (CPace)  
   Reading: [Labyrinth](https://engineering.fb.com/wp-content/uploads/2023/12/TheLabyrinthEncryptedMessageStorageProtocol_12-6-2023.pdf) (p35)  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Signal private group system.**  
   Key-verification anonymous credentials.  
   Reading: [blog](https://signal.org/blog/signal-private-group-system/).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
   
 * **Signal group send endorsements.**  
   Anonymous endorsement tokens based similar to Privacy Pass with blind batch issuance and homomorphic combination.  
   Reading: [source code](https://github.com/signalapp/libsignal/tree/main/rust/zkcredential/src/endorsements.rs).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **WhatsApp encrypted backups.**  
   aPAKE (OPAQUE) for backup key retrieval from PIN.  
@@ -108,24 +108,24 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [Meta whitepaper](https://www.whatsapp.com/security/WhatsApp_Security_Encrypted_Backups_Whitepaper.pdf),
             [Academic paper](https://eprint.iacr.org/2023/843),
            [audit](https://research.nccgroup.com/wp-content/uploads/2021/10/NCC_Group_WhatsApp_E001000M_Report_2021-10-27_v1.2.pdf).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Signal Secure Value Recovery.**  
   OPRF-based rate-limited key derivation for recovering account settings from a user-chosen PIN or password.  
   Reading: [Academic paper](TODO),
            [Client code](https://github.com/signalapp/libsignal/blob/main/rust/svrb/src/lib.rs) (HNDL secure),
            [Server code](https://github.com/signalapp/SecureValueRecovery2) (HNDL secure).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **league of entropy (drand).**  
   Public verifiable decentralised randomness using threshold signatures and distributed key generation.  
   Reading: [website](https://docs.drand.love/about/community/), [docs](https://docs.drand.love/about/)  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Proton user authentication**  
   aPAKE (SRP)  
   Reading: [blog](https://proton.me/blog/encrypted-email-authentication).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * (...)
 
@@ -139,7 +139,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [Halo2 (trustless)](https://zcash.github.io/halo2/design/protocol.html),
            [commitment specs](https://zips.z.cash/protocol/protocol.pdf#concretehomomorphiccommit),
            [RedDSA](https://zips.z.cash/protocol/protocol.pdf#concretereddsa).<br>
-  Fully PQ: 😔. Has PQ privacy when the adversary doesn't know the recipient's address; no PQ correctness.<br>
+  NOT fully PQ 😔. Has PQ privacy when the adversary doesn't know the recipient's address; no PQ correctness.<br>
   Future proposals:  
   * Post-Quantum Zcash presentation: [slides](https://docs.google.com/presentation/d/1BHBiSOEO5zt40KWBbRXVMGIIuAcT2hfPWZQ3pT_8tm8/edit), [video](https://www.youtube.com/watch?v=T2B5f297d-Y)<br>
   * [Proposal for "quantum resilience" (draft)](https://hackmd.io/fF6D7THmRDamvyAAsJN5yw?view): "This ZIP proposes a change to the construction of Orchard notes that is intended to support a smoother transition to future versions of Zcash designed to be secure against discrete-log-breaking adversaries, including adversaries using quantum computers."
@@ -147,12 +147,12 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Nillion's decentralized database (nilDB)**  
   Decentralized storage, Shamir secret sharing, XOR secret sharing, additive secret sharing, Paillier.  
   Reading: [blog](https://docs.nillion.com/learn/blind-modules#nildb), [docs](https://docs.nillion.com/build/private-storage/overview), [code](https://github.com/NillionNetwork/nildb)  
-  Fully PQ: 😊 with the exception of Paillier mode.  
+  Fully PQ 😊 with the exception of Paillier mode.  
 
 * **Taproot (BIP 342)**  
   Public key in Bitcoin that can be openned as if it was a commitment. Commitment is PQ, but public key is not.  
   Reading: [academic paper](https://eprint.iacr.org/2025/1307)  
-  Fully PQ: 😔. Commitment is PQ, but public key is not.  
+  NOT fully PQ 😔. Commitment is PQ, but public key is not.  
 
 * (...)
   
@@ -161,37 +161,37 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Bitcoin PIPEs v2**  
   Witness encryption to enable Covenants and ZKPs from signatures  
   Reading: [Paper](https://eprint.iacr.org/2026/186)  
-  Fully PQ: TBD.  
+  PQ? TBD.  
 
 * **Facebook secure update propagation.**  
   Homomorphic hashing (aka incremental hashing)  
   Reading:  [blog](https://engineering.fb.com/2019/03/01/security/homomorphic-hashing/), [code](https://github.com/facebook/folly/blob/main/folly/crypto/LtHash.cpp).  
-  Fully PQ:  🤨 potentially with a PQ-signature scheme signing homomorphic hashes
+  Partially PQ 🤨 potentially with a PQ-signature scheme signing homomorphic hashes
 
 * **Facebook ads attribution.**  
   Private match and compute  
   Reading: [blog 1](https://engineering.fb.com/2020/07/10/open-source/private-matching/), [blog 2](https://research.facebook.com/blog/2023/1/delegated-multi-key-private-matching-for-compute-improving-match-rates-and-enabling-adoption/), [code](https://github.com/facebookresearch/Private-ID).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Google ads attribution.**  
   Private join and compute  
   Reading: [blog](https://security.googleblog.com/2019/06/helping-organizations-do-more-without-collecting-more-data.html), [code](https://github.com/google/private-join-and-compute).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * **Google ads attribution.**  
   Partially homomorphic encryption for private set intersection using Paillier  
   Reading:  [blog](https://bristolcrypto.blogspot.com/2017/01/rwc-2017-secure-mpc-at-google.html), [Media coverage](https://www.theverge.com/2018/8/30/17801880/google-mastercard-data-online-ads-offline-purchase-history-privacy), [patent](https://research.google/pubs/private-intersection-sum-protocols-with-applications-to-attributing-aggregate-ad-conversions/).  
-  Fully PQ:  😔. Paillier is not post-quantum secure.
+  NOT fully PQ 😔. Paillier is not post-quantum secure.
  
 * **IACR voting**  
   Mixnets  
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).  
-  Fully PQ:  TBD.
+  PQ? TBD.
 
 * **Proton E2EE email forwarding**  
   Proxy re-encryption for ECDH (X25519) in OpenPGP  
   Reading: [blog](https://proton.me/blog/email-forwarding), [paper](https://arxiv.org/abs/2211.06992), [spec rfc draft](https://datatracker.ietf.org/doc/draft-wussler-openpgp-forwarding/).  
-  Fully PQ: 😔.
+  NOT fully PQ 😔.
 
 * (...)
 
