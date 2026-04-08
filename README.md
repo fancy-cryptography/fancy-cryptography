@@ -161,7 +161,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **Bitcoin PIPEs v2**  
   Witness encryption to enable Covenants and ZKPs from signatures  
   Reading: [Paper](https://eprint.iacr.org/2026/186)  
-  PQ? TBD.  
+  PQ? TBD ⏳.  
 
 * **Facebook secure update propagation.**  
   Homomorphic hashing (aka incremental hashing)  
@@ -186,7 +186,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
 * **IACR voting**  
   Mixnets  
   Reading:  [Helios](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf).  
-  PQ? TBD.
+  PQ? TBD ⏳.
 
 * **Proton E2EE email forwarding**  
   Proxy re-encryption for ECDH (X25519) in OpenPGP  
