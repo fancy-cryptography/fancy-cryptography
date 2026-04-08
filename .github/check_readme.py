@@ -10,7 +10,7 @@ Checks:
    a line break in rendered markdown. Lines ending with a comma (continuation
    lines for multi-link Reading entries) are exempt.
 2. Required fields: every list entry must contain a 'Reading:' line and a
-   PQ status line ('Fully PQ', 'NOT fully PQ', 'Partially PQ', or 'PQ? TBD').
+   PQ status line ('Fully PQ', 'Not fully PQ', 'Partially PQ', or 'PQ? TBD').
 """
 
 import sys
@@ -74,7 +74,7 @@ def check_block(lines, start, end):
 def check_required_fields(lines, start, end):
     """Check that a block contains 'Reading:' and a PQ status line.
 
-    The PQ status line must contain one of: 'Fully PQ', 'NOT fully PQ',
+    The PQ status line must contain one of: 'Fully PQ', 'Not fully PQ',
     'Partially PQ', or 'PQ? TBD'.
 
     Returns a list of (line_number, entry_name, missing_field) for any missing
@@ -82,7 +82,7 @@ def check_required_fields(lines, start, end):
     """
     import re
 
-    PQ_MARKERS = ["Fully PQ", "NOT fully PQ", "Partially PQ", "PQ? TBD"]
+    PQ_MARKERS = ["Fully PQ", "Not fully PQ", "Partially PQ", "PQ? TBD"]
 
     # Extract entry name from the first line: * **Name**
     first_line = lines[start].strip()
@@ -104,7 +104,7 @@ def check_required_fields(lines, start, end):
             (
                 start + 1,
                 name,
-                "PQ status (Fully PQ / NOT fully PQ / Partially PQ / PQ? TBD)",
+                "PQ status (Fully PQ / Not fully PQ / Partially PQ / PQ? TBD)",
             )
         )
 
