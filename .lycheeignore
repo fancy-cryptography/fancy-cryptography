@@ -1,5 +1,2 @@
 # Placeholder for papers not yet published
 TODO
-
-# eprint.iacr.org blocks requests from GitHub Actions
-https://eprint.iacr.org/.*
