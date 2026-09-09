@@ -141,7 +141,7 @@ of schemes that still need to be upgraded to post-quantum cryptography.
            [RedDSA](https://zips.z.cash/protocol/protocol.pdf#concretereddsa).<br>
   Not fully PQ 😔. Has PQ privacy when the adversary doesn't know the recipient's address; no PQ correctness.<br>
   Future proposals:  
-  * Post-Quantum Zcash presentation: [slides](https://docs.google.com/presentation/d/1BHBiSOEO5zt40KWBbRXVMGIIuAcT2hfPWZQ3pT_8tm8/edit), [video](https://www.youtube.com/watch?v=T2B5f297d-Y)<br>
+  * Post-Quantum Zcash presentation: [video](https://www.youtube.com/watch?v=T2B5f297d-Y)<br>
   * [Proposal for "quantum resilience" (draft)](https://hackmd.io/fF6D7THmRDamvyAAsJN5yw?view): "This ZIP proposes a change to the construction of Orchard notes that is intended to support a smoother transition to future versions of Zcash designed to be secure against discrete-log-breaking adversaries, including adversaries using quantum computers."
 
 * **Nillion's decentralized database (nilDB)**  
